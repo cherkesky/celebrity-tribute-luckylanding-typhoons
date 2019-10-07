@@ -1,0 +1,46 @@
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  font-style: oblique;
+  font-size: 20px;
+  border: 2px solid black;
+  padding: 15px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  font-style: oblique;
+  font-size: 20px;
+  border: 2px solid black;
+  padding: 15px;
+
+}
+
+html {
+  display: flex;
+  justify-content: center;
+  background-color: burlywood;
+}
+
+h2 {
+  font-family: fantasy;
+font-size: 72px;
+}
+
+h4 {
+font-family: fantasy;
+font-size: 38px;
+
+}
+
+p {
+display: flex;
+flex-wrap: wrap;
+font-style: italic;
+}
+
+img {
+  display: flex;
+  padding:1px;
+  border:1px solid black;}
