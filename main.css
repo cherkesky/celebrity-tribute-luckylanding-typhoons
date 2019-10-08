@@ -1,3 +1,9 @@
+body {
+  text-align: center;
+  font-family: fantasy;
+  background-color: burlywood;
+ }
+
 nav > img {
   width: 5%;
   height: 5%;
@@ -14,6 +20,10 @@ nav > img {
    padding: 15px;
   }
 
+  nav > a {
+    color: black;
+  }
+
   footer {
    display: flex;
    justify-content: space-evenly;
@@ -23,34 +33,22 @@ nav > img {
    padding: 15px;
   }
 
-  html {
-   display: flex;
-   justify-content: center;
-   background-color: burlywood;
+  footer a {
+    color: black;
   }
 
-  body {
-   text-align: center;
-  }
-
-  h1 {
-   font-family: fantasy;
-  font-size: 72px;
-  }
-
-  h2 {
-   font-family: fantasy;
+  h1, h2 {
   font-size: 72px;
   }
 
   h4 {
-  font-family: fantasy;
   font-size: 38px;
   }
 
   p {
   font-style: italic;
   text-align: center;
+  font-family: 'Times New Roman', Times, serif;
   }
 
   img {
@@ -70,4 +68,5 @@ nav > img {
    
    li {
          text-align: left;
+         font-family: 'Times New Roman', Times, serif;
    }
