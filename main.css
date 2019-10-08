@@ -14,13 +14,21 @@ footer {
   font-size: 20px;
   border: 2px solid black;
   padding: 15px;
-
 }
 
 html {
   display: flex;
   justify-content: center;
   background-color: burlywood;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: fantasy;
+font-size: 72px;
 }
 
 h2 {
@@ -31,16 +39,29 @@ font-size: 72px;
 h4 {
 font-family: fantasy;
 font-size: 38px;
-
 }
 
 p {
-display: flex;
-flex-wrap: wrap;
 font-style: italic;
+text-align: center;
+
 }
 
 img {
-  display: flex;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   padding:1px;
   border:1px solid black;}
+ 
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+  }
+
+  li {
+        text-align: left; 
+
+  }
